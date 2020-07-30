@@ -16,32 +16,120 @@
     <link rel="stylesheet" href="/views/content/bootstrap/css/bootstrap.min.css">
     
     <!--CSS files-->
-    <link rel="stylesheet" href="/views/css/principal.css">
+    <link rel="stylesheet" href="/views/css/home.css">
     
 
 </head>
-<body >
-    <header>      
-        <nav>
-            
-            <ul type="none">
 
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">About Us</button>
-                <li><a href="#">Our mission<i></i> </a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Galery</a></li>
-                <li><a href="#">Contact Us</a></li>
-                
-            </ul>
-           
-        </nav>            
-               
+<body>
+    <header id="particles-js">  
+        
+        
+        <!--Navbar start: after & before scrolling -->  
+        <div class="col-md">
+
+            <!--Navbar starts: after scroll-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-1" >
+                    <a class="navbar-brand" href="#">
+                        <img src="/views/content/img/sh.png" width="100" height="30" class="d-inline-block align-top" alt="">
+                        Tech
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="">
+                    <ul class="navbar-nav">
+        
+                            <li class="nav-item active"><a href="#" class="nav-link">Home</a> </li>
+                            <li class="nav-item"><a href="#" class="nav-link">About Us</button>
+                            <li class="nav-item"><a href="#" class="nav-link">Our mission<i></i> </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">News <span class="badge badge-light">+6</span></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Galery</a></li>
+                            <li class="nav-item"><a href="#" class="nav-lin btn btn-outline-light">Contact Us</a></li>
+                            
+                        </ul>
+                    </div>
+        
+                </nav>
+            <!--End-->
+
+            <!--Navbar starts: after scroll-->
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-2 hidden">
+                        <a class="navbar-brand" href="#">
+                            <img src="/views/content/img/sh.png" width="100" height="30" class="d-inline-block align-top" alt="">
+                            Tech 
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item active"><a href="#" class="nav-link">Home</a> </li>
+                            <li class="nav-item"><a href="#" class="nav-link">About</button>
+                            <li class="nav-item"><a href="#" class="nav-link">Mission<i></i> </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">News <span class="badge badge-dark">+6</span></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Galery</a></li>
+                            <li class="nav-item"><a href="#" class="nav-lin btn btn-outline-dark">Contact Us</a></li>
+                            
+                        </ul>
+                        </div>
+
+                </nav>
+            <!--End-->
+        </div>
+        <!--End-->     
+        
+        <div class="col-md" style="position: absolute; top: 20%;">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam culpa dolore magni quasi. Soluta illum repudiandae iste perspiciatis qui. Sunt magnam voluptatibus maiores temporibus odio quam unde, repellat ex molestiae!
+            </p>  
+        </div>
+          
+          
     </header>
- 
-    
+
+
+    <!--Modal of navbar toggle-->
+    <div class="modal modal-nav" id="navbarNav">
+        <div class="modal-dialogue" >
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <div class="row modal-links" >
+                        <div class="col-md">
+                            <a href="home.html">Home</a>
+                        </div>
+                        <div class="col-md">
+                            <a href="#">About</a>
+                        </div>
+                        <div class="col-md">
+                            <a href="#">Mission</a>
+                        </div>
+                        <div class="col-md">
+                            <a href="#">News <span class="badge badge-light">+6</span></a>
+                        </div>
+                        <div class="col-md">
+                            <a href="#">Gallery</a>
+                        </div>
+                        <div class="col-md">
+                            <a href="#" >Contact</a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    <!--End-->
+
+
     <section class="about">
         <h1>Home</h1>
+        <div id="">
+
+        </div>
     </section>
     <section class="about">
         <h1>About Us</h1>
@@ -59,9 +147,9 @@
         <h1>Contact Us</h1>
     </section>
 
-
-   
-    <script src="/views/Js/principal.js"></script>
+    <script src="/views/Js/particles.js"></script>
+    <script src="/views/Js/app.js"></script>
+    <script src="/views/Js/home.js"></script>
     <script src="/views/content/bootstrap/js/jquery-3.5.1.min.js"></script>
     <script src="/views/content/bootstrap/js/bootstrap.min.js"></script>
 </body>
