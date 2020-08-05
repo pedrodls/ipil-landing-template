@@ -1,5 +1,4 @@
-html, body, header{height: 100%;}
-
+html, body, header{height: 100%; width: 100%;}
 
 /*Navbar start*/
 
@@ -26,9 +25,7 @@ html, body, header{height: 100%;}
 
 .navbar-brand{margin-left: 0px;}
 
-.nav-item{
-    margin: 0px 20px 0px 0px;
-}
+.nav-item{margin: 0px 20px 0px 0px;}
 
 
 /*Navbar antes do scroll*/
@@ -38,13 +35,11 @@ html, body, header{height: 100%;}
 .navbar-1 .navbar-brand{margin-left: 5%;}
 
 .navbar{
-    background-color: #ffffff18;
+    background-color: #ffffff28;
 }
 /*Navbar end*/
 
-
 /*Navbar apos o scroll*/
-
 .navbar-2{
     margin: 0;
     border-radius: 0;
@@ -54,21 +49,16 @@ html, body, header{height: 100%;}
 
 .navbar-2 .navbar-nav{margin-right: 15%;}
 .navbar-2 .navbar-brand{margin-left: 9%;}
-
-
-
-
  
 /*Navbar end*/
 
 .hidden{opacity: 0;}
 
 header .animback{
-    background: url(/views/content/img/7.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    transition: 1s;
+    transition: 2s;
     animation: backHeader 2s;
     animation-delay: 1250ms;
     position: absolute;
@@ -174,23 +164,6 @@ header > .col-md{margin: 5% 0% 0% 0%; background-color: transparent; position: a
 }
 /***********************Header edited****************************/
 
-.scroller{ margin: 10px; position: fixed; bottom: 0; right: 0;}  
+.scroller{ margin-bottom: 90px; margin-right: 32px; position: fixed; bottom: 0; right: 0; }  
 .scroller .btn{border-radius: 50%;}
-.scroller .btn:hover{background-color: black; }
-
-/***********************Footer*********************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.scroller .btn:hover{background-color: black; }        

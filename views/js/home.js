@@ -1,12 +1,12 @@
 
 //Header opacity
-var cont=5;
+var cont=6;
 var d;
 
 window.addEventListener('load',() => {
-        
+    $('.animback').css('background-image', "url(views/content/img/iu.jpg)");
     $('.pre-loader-container').fadeOut(4000);
-    d = setInterval(() => { if(cont>9) cont=6; else cont++;;   $('.animback').css('background-image', "url(/views/content/img/"+cont+".jpg)");} ,5000)
+    d = setInterval(() => { if(cont>9) cont=6; else cont++;   $('.animback').css('background-image', "url(views/content/img/"+cont+".jpg)");} ,5000)
     $('.scroller').fadeOut(1000);
 
 });
@@ -42,3 +42,4 @@ window.addEventListener('scroll', () => {
             $('.scroller').fadeOut(100);
      
 });  
+
