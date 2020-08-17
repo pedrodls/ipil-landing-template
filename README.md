@@ -1,2 +1,2 @@
-# school_template
-Building a template of some school with bootstrap!!!
+# High School template
+Building a responsive website using js, bootstrap and then!
