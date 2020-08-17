@@ -1,0 +1,16 @@
+html, body, header, footer{width: 100%; height: 100%; padding: 0; margin: 0;}
+
+.container-fluid{
+    width: 100%;
+    height: 100%;
+   
+}
+#back{
+    background: url('img/student-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
